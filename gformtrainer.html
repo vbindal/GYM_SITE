@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gform_gymtrainer</title>
+  </head>
+  <body bgcolor="violet">
+    <h1
+      style="
+        text-align: center;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white"
+    >
+      Form for Gym Trainer
+    </h1>
+    <div style="
+    background-color:rgb(245, 206, 213);
+    width:fit-content;
+    display:flex;
+    padding: 30px 30px 30px 30px;
+    margin-top:140px ;
+    margin-left:600px;">
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /><br>
+      <label for="Dob">DOB</label><br>
+      <input type="date" id="dob" name="dob" style="width:162px"><br><br>
+      <label for="is_certified">is_certified?</label><br>
+      <input type="radio" name="is_certified">
+      <label for="yes">YES</label>
+      <input type="radio" name="is_certified">
+      <label for="no">NO</label><br>
+      <label for="document">If YES UPLOAD CERTIFICATE</label><br>
+      <input type="file" name="document"><br>
+      <label for="if_no">If NO write about some of your achievements</label><br>
+      <input type=""><br>
+      <label for="address">Address</label><br>
+      <input type="text"><br>
+      <label for="phone number">Phone Number</label><br>
+      <input type="tel" patten="[0-9]{9}" placeholder="0123456789"><br>
+      <label for="email">Email</label><br>
+      <input type="email" placeholder="abc@gmail.com"><br><br>
+      <input type="submit">
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+.nvbar ul{
+    background-color:rgba(202, 65, 193, 0.852);
+    overflow: auto;
+    
+    border-radius: 8px;
+    margin:2px 2px;
+    margin-bottom: 0;
+    padding: 1.2em;
+}
+.nvbar li{
+    float:left;
+    list-style: none;
+    text-decoration: none;
+    margin:3px 3px;
+    font-family:cursive;
+    color :rgb(255, 255, 255);
+}
+.nvbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.nvbar li a:hover{
+    color:black;
+}
+.search{
+    float: right;
+    padding: 3px 75px;
+    color:white;
+}
+.nvbar input{
+    border : 2px solid rgba(202, 65, 193, 0.852);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    padding: 2px;
+    width:120px
+}
+.knowmore{
+   background-color:rgba(202, 65, 193, 0.852);
+   border-color: rgba(202, 65, 193, 0.852);
+   margin-left: 625px;
+}
+tr{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 175, 238);
+    color: brown;
+}
+.findclub{
+   background-color:rgba(202, 65, 193, 0.852);
+   border-color: rgba(202, 65, 193, 0.852);
+   margin-left: 700px;
+   height: 50px;
+   width : 100px;
+}
+.findclub a{
+    text-decoration: none;
+    color: white;
+}
+.findclub a:hover{
+    color: black;
+}
